@@ -24,10 +24,10 @@ p {
     padding: 10px;
     font-size: 20px;
     border: 2px solid #ff3838;
-    cursor: grabbing;
     margin: 10px;
     border-radius: 5px;
     width: 50%;
+    background-color: transparent;
 }
 
 .view-recipe-btn:hover {
@@ -43,4 +43,5 @@ a {
 a:hover{
     text-decoration: underline;
     color: white;
+    cursor: grabbing;
   }
