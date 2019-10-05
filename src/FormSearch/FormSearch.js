@@ -1,21 +1,42 @@
-import React from 'react';
-import './FormSearch.css';
+import React, { Component } from 'react';
 
-const FormSearch = (props) => {
- 
-    return(
-        <form onSubmit={props.getRecipe}>
-            <input 
-               className='search-recipe'
-               placeholder='Search for recipe here'
-               type='text'
-               name='recipeName' 
-               />
-            <button className='search-btn'>Search</button>
-        </form>
-    )
-        
+
+class FormSearch extends Component {
+    constructor() {
+      super();
+      this.state = {
+        ingredient: ''
+      }
+    }
+
+    handleChange = (e) => {
+      this.setState({ [e.target.name] : e.target.value})
+    }
+
+    submitRecipe = (e) => {
+      e.preventDefault();
+
+      this.props.getRecipe(this.state.ingredient);
+
+      this.setState({ ingredient : ''});
+    }
+
+
+    render() {
+        return(
+            <form>
+                <input 
+                   className='search-recipe'
+                   placeholder='Search for recipe here'
+                   type='text' 
+                   name='ingredient'
+                   value={this.state.ingredient}
+                   onChange={(e) => this.handleChange(e)}
+                   />
+                <button className='search-btn' onClick={(e) => this.submitRecipe(e)}>Search</button>
+            </form>
+        )
+    }
 }
-
 
 export default FormSearch;

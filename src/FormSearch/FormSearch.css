@@ -3,7 +3,8 @@
     border: none;
     background-color: transparent;
     border-bottom: 1px solid black;
-    color: white;
+    color: black;
+    width: 30%;
 }
 
 .search-btn {

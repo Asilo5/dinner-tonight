@@ -1,4 +1,5 @@
 import React from 'react';
+import './RecipeContainer.css';
 import Recipe from '../Recipe/Recipe';
 
 const RecipeContainer = (props) => {

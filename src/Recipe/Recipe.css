@@ -1,0 +1,21 @@
+.recipe-img {
+  height: 15em;
+  margin: 10px;
+}
+
+.recipe {
+  border: 4px #ff3838 solid;
+  padding: 10px;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+h3 {
+  font-family: 'Gayathri', sans-serif;
+  font-size: 27px;
+  margin: 10px;
+}
+
+p {
+  font-family: 'Gayathri', sans-serif; 
+}

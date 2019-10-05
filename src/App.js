@@ -13,10 +13,8 @@ class App extends Component {
     }
   }
 
-  getRecipe = async (e) => {
-    e.preventDefault(); 
-    const recipeName = e.target.elements.recipeName.value;
-    const api_call = await fetch(`https://www.food2fork.com/api/search?key=${API_KEY}&q=${recipeName}&count=10`);
+  getRecipe = async (ingredient) => {
+    const api_call = await fetch(`https://www.food2fork.com/api/search?key=${API_KEY}&q=${ingredient}&count=12`);
     const data = await api_call.json(); 
     this.setState({ recipes : data.recipes });
   }
@@ -25,7 +23,7 @@ class App extends Component {
     return (
       <section className='App'>
         <header className='App-header'>
-          <h1> Recipe App </h1>
+          <h1> Dinner Tonight </h1>
         </header>
         <FormSearch getRecipe={this.getRecipe}/>
         <RecipeContainer recipes={this.state.recipes}/>
