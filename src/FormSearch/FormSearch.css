@@ -1,0 +1,21 @@
+.search-recipe {
+    font-size: 32px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+    color: white;
+}
+
+.search-btn {
+  font-size: 20px;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 10px;
+  font-weight: bold;
+  border: none;
+}
+
+.search-btn:hover {
+  background: #ff3838;
+  color: white;
+}
