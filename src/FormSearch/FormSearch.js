@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './FormSearch.css'
 
 
 class FormSearch extends Component {
@@ -27,7 +28,7 @@ class FormSearch extends Component {
             <form>
                 <input 
                    className='search-recipe'
-                   placeholder='Search for recipe here'
+                   placeholder='What ingredient do you fancy tonight?..'
                    type='text' 
                    name='ingredient'
                    value={this.state.ingredient}

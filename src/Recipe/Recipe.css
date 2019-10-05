@@ -19,3 +19,28 @@ h3 {
 p {
   font-family: 'Gayathri', sans-serif; 
 }
+
+.view-recipe-btn {
+    padding: 10px;
+    font-size: 20px;
+    border: 2px solid #ff3838;
+    cursor: grabbing;
+    margin: 10px;
+    border-radius: 5px;
+    width: 50%;
+}
+
+.view-recipe-btn:hover {
+  background: #ff3838;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: white;
+  }
