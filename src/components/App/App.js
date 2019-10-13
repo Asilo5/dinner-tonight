@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import FormSearch from './FormSearch/FormSearch';
-import RecipeContainer from './RecipeContainer/RecipeContainer';
+import FormSearch from '../FormSearch/FormSearch';
+import RecipeContainer from '../RecipeContainer/RecipeContainer';
 
 const API_KEY = '2328b6e1ad7d799035a86bee44248fd1';
 
