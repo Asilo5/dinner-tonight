@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/dinner-tonight/static/css/main.cb6b9da0.chunk.css",
+    "main.js": "/dinner-tonight/static/js/main.2b992f35.chunk.js",
+    "main.js.map": "/dinner-tonight/static/js/main.2b992f35.chunk.js.map",
+    "runtime-main.js": "/dinner-tonight/static/js/runtime-main.a52f1349.js",
+    "runtime-main.js.map": "/dinner-tonight/static/js/runtime-main.a52f1349.js.map",
+    "static/js/2.73887d5b.chunk.js": "/dinner-tonight/static/js/2.73887d5b.chunk.js",
+    "static/js/2.73887d5b.chunk.js.map": "/dinner-tonight/static/js/2.73887d5b.chunk.js.map",
+    "index.html": "/dinner-tonight/index.html",
+    "precache-manifest.eb2c586bccdc468032886df4e8e36ae2.js": "/dinner-tonight/precache-manifest.eb2c586bccdc468032886df4e8e36ae2.js",
+    "service-worker.js": "/dinner-tonight/service-worker.js",
+    "static/css/main.cb6b9da0.chunk.css.map": "/dinner-tonight/static/css/main.cb6b9da0.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a52f1349.js",
+    "static/js/2.73887d5b.chunk.js",
+    "static/css/main.cb6b9da0.chunk.css",
+    "static/js/main.2b992f35.chunk.js"
+  ]
+}
