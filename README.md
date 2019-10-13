@@ -20,6 +20,6 @@ Dinner Tonight was built using:
   - Api from [Food2Fork](https://www.food2fork.com/about/api)
   - Async & Await when fetching API
   
-## Giph of Dinner Tonight
+## Image of Dinner Tonight
 
-![giph of Dinner Tonight]()
+![Dinner Tonight app image](https://github.com/Asilo5/dinner-tonight/blob/master/Screenshot%202019-10-12%20at%2019.21.05.png)
