@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RecipeContainer should match snapshot with all information passing in correctly 1`] = `
+<section
+  className="recipe-container"
+>
+  <Recipe
+    id="ed9409"
+    image="http://static.food2fork.com/BananaPeanutButterChocolateChipCookies13e87.jpg"
+    key="ed9409"
+    publisher="Two Peas and Their Pod"
+    recipeLink="http://www.twopeasandtheirpod.com/gluten-free-vegan-banana-peanut-butter-chocolate-chip-cookies/"
+    title="Gluten-Free Vegan Banana Peanut Butter Chocolate Chip Cookies"
+  />
+</section>
+`;

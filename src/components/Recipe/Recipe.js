@@ -9,7 +9,7 @@ const Recipe = ({title, publisher, image, recipeLink}) => {
           <p> By: {publisher}</p>
           <button className='view-recipe-btn'><a href={recipeLink}>View Recipe</a></button>
         </section>
-    )
+    ) 
 }
 
 export default Recipe;
