@@ -5,7 +5,7 @@ import './FormSearch.css'
 class FormSearch extends Component {
     constructor() {
       super();
-      this.state = {
+      this.state = { 
         ingredient: ''
       }
     }
@@ -19,9 +19,12 @@ class FormSearch extends Component {
 
       this.props.getRecipe(this.state.ingredient);
 
-      this.setState({ ingredient : ''});
+      this.emptyInputs();
     }
 
+    emptyInputs = () => {
+      this.setState({ ingredient : ''});
+    }
 
     render() {
         return(
