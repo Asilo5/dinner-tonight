@@ -1,5 +1,6 @@
 import React from 'react';
-import './Recipe.css'
+import './Recipe.css';
+import PropTypes from 'prop-types';
 
 const Recipe = ({title, publisher, image, recipeLink}) => {
     return(
@@ -9,7 +10,14 @@ const Recipe = ({title, publisher, image, recipeLink}) => {
           <p> By: {publisher}</p>
           <button className='view-recipe-btn'><a href={recipeLink}>View Recipe</a></button>
         </section>
-    )
+    ) 
+}
+
+Recipe.propTypes = {
+  title: PropTypes.string, 
+  publisher: PropTypes.string, 
+  image: PropTypes.string, 
+  recipeLink: PropTypes.string
 }
 
 export default Recipe;
