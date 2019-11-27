@@ -6,7 +6,7 @@ import RecipeContainer from '../RecipeContainer/RecipeContainer';
 const API_KEY = '2328b6e1ad7d799035a86bee44248fd1';
 
 class App extends Component {
-  constructor() {
+  constructor() { 
     super();
     this.state = {
       recipes: []

@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should match snapshot with all information getting passed in correctly 1`] = `
+<section
+  className="App"
+>
+  <header
+    className="App-header"
+  >
+    <h1>
+       Dinner Tonight 
+    </h1>
+  </header>
+  <FormSearch
+    getRecipe={[Function]}
+  />
+  <p
+    className="empty-message"
+  >
+     Please search for your dinner first.. 
+  </p>
+</section>
+`;
