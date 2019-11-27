@@ -26,7 +26,7 @@ class App extends Component {
           <h1> Dinner Tonight </h1>
         </header>
         <FormSearch getRecipe={this.getRecipe}/>
-        <RecipeContainer recipes={this.state.recipes}/>
+        { this.state.recipes.length === 0 ? <p className='empty-message'> Please search for your dinner first.. </p> : <RecipeContainer recipes={this.state.recipes}/>}
       </section>
     )
   }
