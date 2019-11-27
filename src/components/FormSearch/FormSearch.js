@@ -6,7 +6,7 @@ class FormSearch extends Component {
     constructor() {
       super();
       this.state = { 
-        ingredient: ''
+        ingredient: '' 
       }
     }
 

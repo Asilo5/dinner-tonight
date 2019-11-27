@@ -27,10 +27,10 @@ describe('App', () => {
 
   // come back to this test when we go over testing async await
 
-  // it('should update state when getRecipe is called', () => {
-  //   expect(wrapper.state('recipes')).toEqual([])
-  //   wrapper.instance().getRecipe('vegan');
-  //   expect(wrapper.state('recipes')).toEqual(mockRecipe);
-  // })
+  it.skip('should update state when getRecipe is called', () => {
+    expect(wrapper.state('recipes')).toEqual([])
+    wrapper.instance().getRecipe('vegan');
+    expect(wrapper.state('recipes')).toEqual(mockRecipe);
+  })
 
 })
