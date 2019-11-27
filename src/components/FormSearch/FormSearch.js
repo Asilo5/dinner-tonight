@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import './FormSearch.css'
+import './FormSearch.css';
+import PropTypes from 'prop-types';
 
 
 class FormSearch extends Component {
@@ -41,6 +42,10 @@ class FormSearch extends Component {
             </form>
         )
     }
+}
+
+FormSearch.propTypes = {
+  getRecipe: PropTypes.func
 }
 
 export default FormSearch;

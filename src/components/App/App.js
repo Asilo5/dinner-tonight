@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import FormSearch from '../FormSearch/FormSearch';
 import RecipeContainer from '../RecipeContainer/RecipeContainer';
+import PropTypes from 'prop-types';
 
 const API_KEY = '2328b6e1ad7d799035a86bee44248fd1';
 
@@ -32,4 +33,10 @@ class App extends Component {
   }
 }
 
+App.propTypes = {
+  FormSearch: PropTypes.element,
+  RecipeContainer: PropTypes.element
+}
+
 export default App;
+
